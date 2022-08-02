@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94385f27-2523-4927-af0a-7736a3c3b89b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/models/test_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/models/test_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/integration_base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/base_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/models/test_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/models/test_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/models/test_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/models/test_store.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2ClI89vCK2Nx0uttpYlL9yUdj8I" />
   <component name="ProjectLevelVcsManager">
@@ -37,13 +54,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/tests/integration/models" />
       <recent name="$PROJECT_DIR$/tests/integration" />
       <recent name="$PROJECT_DIR$/tests/unit" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_store.StoreTest.test_store_json_with_item">
-    <configuration name="Unittests for test_store.StoreTest.test_create_store_items_empty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_user.UserTest.tests_register_duplicate_user">
+    <configuration name="Unittests for test_user.TestUser.test_crud" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,73 +71,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_create_store_items_empty&quot;" />
+      <option name="_new_target" value="&quot;test_user.TestUser.test_crud&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store.StoreTest.test_crud" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user.UserTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_crud&quot;" />
+      <option name="_new_target" value="&quot;test_user.UserTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store.StoreTest.test_store_json" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user.UserTest.test_register_and_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_store_json&quot;" />
+      <option name="_new_target" value="&quot;test_user.UserTest.test_register_and_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store.StoreTest.test_store_json_with_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user.UserTest.test_register_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_store_json_with_item&quot;" />
+      <option name="_new_target" value="&quot;test_user.UserTest.test_register_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store.StoreTest.test_store_relationship" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user.UserTest.tests_register_duplicate_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_store_relationship&quot;" />
+      <option name="_new_target" value="&quot;test_user.UserTest.tests_register_duplicate_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_store_json_with_item" />
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_store_json" />
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_store_relationship" />
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_crud" />
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_create_store_items_empty" />
+        <item itemvalue="Python tests.Unittests for test_user.UserTest.tests_register_duplicate_user" />
+        <item itemvalue="Python tests.Unittests for test_user.UserTest" />
+        <item itemvalue="Python tests.Unittests for test_user.UserTest.test_register_and_login" />
+        <item itemvalue="Python tests.Unittests for test_user.UserTest.test_register_user" />
+        <item itemvalue="Python tests.Unittests for test_user.TestUser.test_crud" />
       </list>
     </recent_temporary>
   </component>
