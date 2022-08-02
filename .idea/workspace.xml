@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94385f27-2523-4927-af0a-7736a3c3b89b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/integration/models/test_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/system/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/system/test_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/system/test_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/system/test_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/models/test_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/integration/integration_base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/base_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/integration/models/test_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/models/test_item.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/integration/models/test_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/models/test_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/system/test_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/system/test_store.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +50,8 @@
       <recent name="$PROJECT_DIR$/tests/unit" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_user.UserTest.tests_register_duplicate_user">
-    <configuration name="Unittests for test_user.TestUser.test_crud" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="REST_API_TEST_1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user.TestUser.test_crud&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_user.UserTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_store.TestStore.test_store_list_with_items">
+    <configuration name="Unittests for test_store.TestStore" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +61,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user.UserTest&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user.UserTest.test_register_and_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_store.TestStore.test_store_found_with_items" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +75,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user.UserTest.test_register_and_login&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore.test_store_found_with_items&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user.UserTest.test_register_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_store.TestStore.test_store_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +89,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user.UserTest.test_register_user&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore.test_store_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user.UserTest.tests_register_duplicate_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_store.TestStore.test_store_list_with_items" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="REST_API_TEST_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,17 +103,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user.UserTest.tests_register_duplicate_user&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore.test_store_list_with_items&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_store.TestStore.test_store_not_found" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="REST_API_TEST_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore.test_store_not_found&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_user.UserTest.tests_register_duplicate_user" />
-        <item itemvalue="Python tests.Unittests for test_user.UserTest" />
-        <item itemvalue="Python tests.Unittests for test_user.UserTest.test_register_and_login" />
-        <item itemvalue="Python tests.Unittests for test_user.UserTest.test_register_user" />
-        <item itemvalue="Python tests.Unittests for test_user.TestUser.test_crud" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore.test_store_list_with_items" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore.test_store_list" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore.test_store_found_with_items" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore.test_store_not_found" />
       </list>
     </recent_temporary>
   </component>
